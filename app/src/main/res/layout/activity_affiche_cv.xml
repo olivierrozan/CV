@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GlobalLinearLayout"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAA"
+    android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:id="@+id/back" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cv.nom"
+                    android:id="@+id/idNom"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cv.prenom"
+                    android:id="@+id/idPrenom"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textSize="16dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cv.titre"
+                    android:id="@+id/idTitre"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXPERIENCE"
+                android:id="@+id/textView"
+                android:layout_margin="10dp"
+                android:textSize="20dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_liste_exp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COMPETENCES"
+                android:id="@+id/textView3"
+                android:layout_margin="10dp"
+                android:textSize="20dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_liste_comp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FORMATIONS"
+                android:id="@+id/textView2"
+                android:layout_margin="10dp"
+                android:textSize="20dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/view_liste_formation" />
+        </TableLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/idId"
+        android:visibility="gone" />
+
+</LinearLayout>
